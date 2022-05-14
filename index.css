@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding:10px;
+    min-width: 400px;
+    font-family: 'Poppins', sans-serif;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1.5px #5f9341;
+    border-radius: 3px;
+}
+
+input:focus{
+    outline: none;
+    border: solid 2.5px #5f9341;
+}
+
+button{
+    padding:10px 20px;
+    border-radius: 3px;
+    border: solid 1.5px #5f9341;
+    background-color: #5f9341;
+    color:#fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+#delete-btn, #save-tab-btn{
+    color:#5f9341;
+    background-color: #fff;
+}
+
+ul{
+    margin-top: 10px;
+    padding-left:5px;
+    list-style-type: none;
+}
+
+li a{
+    color:#5f9341;
+    text-decoration: none;
+    font-size:16px;
+    font-weight:500;
+
+}
